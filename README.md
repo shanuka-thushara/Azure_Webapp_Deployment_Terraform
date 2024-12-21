@@ -59,4 +59,3 @@ The GitHub repository is now linked to the Azure Web App. Any changes pushed to 
 ---
 
 Happy Coding! 🎉
-```
