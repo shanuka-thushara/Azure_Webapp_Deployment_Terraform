@@ -15,3 +15,4 @@ A completely managed platform for creating, launching, and growing online applic
    az account set --subscription <your-subscription-id>
    ```
 ### 2. Create Terraform Configuration File
+Create a file named `main.tf` and add the following content:
