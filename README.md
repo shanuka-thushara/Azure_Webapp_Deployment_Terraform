@@ -7,3 +7,10 @@ A completely managed platform for creating, launching, and growing online applic
 3. Terraform installed locally.
 
 # Steps to Deploy
+### 1. Set Up Terraform
+1. Install Terraform by following the [official guide](https://developer.hashicorp.com/terraform/downloads).
+2. Authenticate Terraform with your Azure subscription using the Azure CLI:
+   ```bash
+   az login
+   az account set --subscription <your-subscription-id>
+   ```
