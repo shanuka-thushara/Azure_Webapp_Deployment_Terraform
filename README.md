@@ -51,35 +51,6 @@ The GitHub repository is now linked to the Azure Web App. Any changes pushed to 
 
 ---
 
-### README for GitHub Repository
-
-```markdown
-# Azure Web App Deployment with Terraform
-
-This repository contains the source code and Terraform configuration for deploying an application to Azure Web Apps with continuous deployment enabled via GitHub.
-
-## Prerequisites
-
-- Active Azure Subscription
-- GitHub account
-- Terraform installed locally
-
-## Deployment Steps
-
-1. **Set Up Terraform**: Install Terraform and authenticate with Azure.
-2. **Create Resources**: Use the `main.tf` file to provision Azure resources.
-3. **Link Repository**: Configure the `azurerm_app_service_source_control` resource for GitHub integration.
-4. **Verify Deployment**: Access the deployed application using the Azure Web App URL.
-
-## Continuous Deployment
-
-Push changes to the `main` branch to trigger an automatic deployment.
-
-## Troubleshooting
-
-- Terraform errors can be debugged by running `terraform plan`.
-- Deployment issues can be diagnosed in the Azure Web App logs.
-
 ## Resources
 
 - [Terraform Documentation](https://developer.hashicorp.com/terraform/docs)
