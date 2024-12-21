@@ -22,7 +22,7 @@ resource "azurerm_app_service_plan" "demo" {
 
 # Create an App Service
 resource "azurerm_app_service" "demo" {
-    name                = "demo-appservice"
+    name                = "DemoApp-appservice"
     location            = azurerm_resource_group.demo.location
     resource_group_name = azurerm_resource_group.demo.name
     app_service_plan_id = azurerm_app_service_plan.demo.id
