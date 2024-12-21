@@ -14,3 +14,4 @@ A completely managed platform for creating, launching, and growing online applic
    az login
    az account set --subscription <your-subscription-id>
    ```
+### 2. Create Terraform Configuration File
