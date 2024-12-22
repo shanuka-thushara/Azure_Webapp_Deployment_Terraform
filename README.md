@@ -56,6 +56,5 @@ The GitHub repository is now linked to the Azure Web App. Any changes pushed to 
 - [Terraform Documentation](https://developer.hashicorp.com/terraform/docs)
 - [Azure Web Apps](https://learn.microsoft.com/en-us/azure/app-service/)
 
----
 
-Happy Coding! 🎉
+
